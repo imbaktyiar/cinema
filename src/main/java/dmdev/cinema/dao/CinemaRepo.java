@@ -6,4 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface CinemaRepo extends JpaRepository<Cinema, Long> {
+    //code repo
 }

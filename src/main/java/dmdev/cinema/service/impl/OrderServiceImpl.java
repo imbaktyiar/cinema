@@ -2,9 +2,10 @@ package dmdev.cinema.service.impl;
 
 import dmdev.cinema.models.dto.OrderDto;
 import dmdev.cinema.service.OrderService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class OrderServiceImpl implements OrderService {
 
     @Override

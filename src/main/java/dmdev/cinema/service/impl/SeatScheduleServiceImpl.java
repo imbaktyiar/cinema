@@ -2,9 +2,10 @@ package dmdev.cinema.service.impl;
 
 import dmdev.cinema.models.dto.SeatScheduleDto;
 import dmdev.cinema.service.SeatScheduleService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class SeatScheduleServiceImpl implements SeatScheduleService {
     @Override
     public SeatScheduleDto save(SeatScheduleDto t) {

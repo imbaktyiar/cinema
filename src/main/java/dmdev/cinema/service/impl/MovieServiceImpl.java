@@ -2,9 +2,10 @@ package dmdev.cinema.service.impl;
 
 import dmdev.cinema.models.dto.MovieDto;
 import dmdev.cinema.service.MovieService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class MovieServiceImpl implements MovieService {
     @Override
     public MovieDto save(MovieDto t) {
